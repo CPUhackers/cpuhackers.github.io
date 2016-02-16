@@ -54,7 +54,13 @@ We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php) for studying th
 
 ##Results
 
+### Frequency vs Time
 
+![Temparature-Frequency](images/freq-temp.png) 
+
+### Frequency vs Temparature
+
+![Time-Frequency](images/time-freq.png) 
 
 
 
