@@ -54,11 +54,26 @@ We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php) for studying th
 
 ##Results
 
-### Frequency vs Time
+| Frequency  | Temp Core 1 | Temp Core 2 | Execution Time|
+| ------------- |:-------------:| -----:| ----:|
+| 1197000 | 35 | 37 | 79.65 |
+| 2261000 | 39 | 43 | 40.34 |
+| 2394000 | 39 | 43 | 39.49 |
+| 2527000 | 41 | 44 | 37.05 |
+| 2660000 | 43 | 45 | 35.52 |
+| 2793000 | 43 | 45 | 34.26 |
+| 2926000 | 43 | 46 | 33.70 |
+| 3059000 | 44 | 47 | 32.27 |
+| 3192000 | 45 | 48 | 30.74 |
+| 3193000 | 45 | 50 | 31.15 |
+
+
+
+### Frequency vs Time Graph
 
 ![Temparature-Frequency](images/freq-temp.png) 
 
-### Frequency vs Temparature
+### Frequency vs Temparature Graph
 
 ![Time-Frequency](images/time-freq.png) 
 
