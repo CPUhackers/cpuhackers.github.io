@@ -77,6 +77,10 @@ We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php) for studying th
 
 ![Time-Frequency](images/time-freq.png) 
 
+##Temparature reading in HPC Computer
+
+![Silp Temparature Reading](images/temparature-silp.png)
+
 
 
 
