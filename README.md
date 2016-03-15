@@ -85,7 +85,7 @@ We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php) for studying th
 
 ```bash
  sudo apt-get install msr-tools
- sudo mdprobe msr
+ sudo modprobe msr
  sudo rdmsr 408 --bitfield 47:32 --decimal --processor 0
  ```
  
