@@ -50,12 +50,11 @@ more cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
 
 ##Running Benchmarks
 
-We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php) for studying the change in temparature and execution time with change in frequency
+We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php) for studying the change in temperature and execution time with change in frequency
 
 ##Results
 
 | Frequency  | Temp Core 1 ℃ | Temp Core ℃ | Execution Time  in Seconds |
-=======
 | ------------- |:-------------:| -----:| ----:|
 | 1197000 | 35 | 37 | 79.65 |
 | 2261000 | 39 | 43 | 40.34 |
@@ -95,7 +94,7 @@ The value obtained from 32:47 bits on multiplying with (1 / 2^^13) gives the vol
 
 ##Comparison of Frequency Vs Voltage
 
-|Max Freqeuncy| Max Voltage |Min Voltage |
+|Max Frequency Max Voltage |Min Voltage |
 |---------|-------------| ------- |
 |1.2 GHz|0.86890 Volt|0.70386 Volt|
 |1.4 GHz|0.86890 Volt|0.71838 Volt|
