@@ -162,7 +162,7 @@ cat /sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq
 <a id="how-to-read-cpu-voltage-for-64-bit-computer" class="anchor" href="#how-to-read-cpu-voltage-for-64-bit-computer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to read CPU voltage for 64 bit computer</h2>
 
 <div class="highlight highlight-source-shell"><pre> sudo apt-get install msr-tools
- sudo mdprobe msr
+ sudo modprobe msr
  sudo rdmsr 408 --bitfield 47:32 --decimal --processor 0</pre></div>
 
 <p>The value of register 408(x198) can be used to calculate the value of voltage. 
