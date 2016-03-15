@@ -69,11 +69,11 @@ We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php) for studying th
 
 
 
-### Frequency vs Time Graph
+### Frequency vs Tempararture Graph
 
 ![Temparature-Frequency](images/freq-temp.png) 
 
-### Frequency vs Temparature Graph
+### Frequency vs Time Graph
 
 ![Time-Frequency](images/time-freq.png) 
 
