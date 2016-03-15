@@ -81,6 +81,18 @@ We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php) for studying th
 
 ![Silp Temparature Reading](images/temparature-silp.png)
 
+##How to read CPU voltage for 64 bit computer
+
+```bash
+ sudo apt-get install msr-tools
+ sudo mdprobe msr
+ sudo rdmsr 408 --bitfield 47:32 --decimal --processor 0
+ ```
+ 
+The value of register 408(x198) can be used to calculate the value of voltage. 
+The value obtained from 32:47 bits on multiplying with (1 / 2^^13) gives the voltage.
+ 
+
 
 
 
