@@ -54,7 +54,9 @@ We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php) for studying th
 
 ##Results
 
+<<<<<<< HEAD
 | Frequency  | Temp Core 1 ℃ | Temp Core ℃ | Execution Time  in Seconds |
+=======
 | ------------- |:-------------:| -----:| ----:|
 | 1197000 | 35 | 37 | 79.65 |
 | 2261000 | 39 | 43 | 40.34 |
