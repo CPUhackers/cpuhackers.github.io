@@ -54,7 +54,7 @@ We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php) for studying th
 
 ##Results
 
-| Frequency  | Temp Core 1 | Temp Core 2 | Execution Time|
+| Frequency  | Temp Core 1(*C) | Temp Core 2(*C) | Execution Time(S)|
 | ------------- |:-------------:| -----:| ----:|
 | 1197000 | 35 | 37 | 79.65 |
 | 2261000 | 39 | 43 | 40.34 |
