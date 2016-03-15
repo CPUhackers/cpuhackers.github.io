@@ -54,7 +54,7 @@ We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php) for studying th
 
 ##Results
 
-| Frequency  | Temp Core 1 | Temp Core 2 | Execution Time|
+| Frequency  | Temp Core 1 ℃ | Temp Core ℃ | Execution Time  in Seconds |
 | ------------- |:-------------:| -----:| ----:|
 | 1197000 | 35 | 37 | 79.65 |
 | 2261000 | 39 | 43 | 40.34 |
@@ -91,6 +91,24 @@ We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php) for studying th
  
 The value of register 408(x198) can be used to calculate the value of voltage. 
 The value obtained from 32:47 bits on multiplying with (1 / 2^^13) gives the voltage.
+
+##Comparison of Frequency Vs Voltage
+
+|Max Freqeuncy| Max Voltage |Min Voltage |
+|---------|-------------| ------- |
+|1.2 GHz|0.86890 Volt|0.70386 Volt|
+|1.4 GHz|0.86890 Volt|0.71838 Volt|
+|1.6 GHz|0.86890 Volt|0.73291 Volt|
+|1.8 GHz|0.86890 Volt|0.75232 Volt|
+|2.0 GHz|0.87366 Volt|0.81055 Volt|
+|2.2 GHz|0.87366 Volt|0.80579 Volt|
+|2.4 GHz|0.90771 Volt|0.86890 Volt|
+
+
+###Graph
+
+![Freq vs Voltage](images/freqvsvol.png)
+
  
 
 
