@@ -94,8 +94,9 @@ The value obtained from 32:47 bits on multiplying with (1 / 2^^13) gives the vol
 
 ##Comparison of Frequency Vs Voltage
 
-|Max Frequency Max Voltage |Min Voltage |
-|---------|-------------| ------- |
+
+|Max Frequency| Max Voltage |Min Voltage |
+|---------|:-------------:|-------:|
 |1.2 GHz|0.86890 Volt|0.70386 Volt|
 |1.4 GHz|0.86890 Volt|0.71838 Volt|
 |1.6 GHz|0.86890 Volt|0.73291 Volt|
