@@ -1,4 +1,4 @@
-##Time
+#Comparison of Governors
 
 |Program       |Ondemand     |Conservative  | Powersave| Performance| Rounder @ 1| Rounder @ 2| Rounder @ 5|
 |--------------|-------------|--------------|-----------------------|------------|------------|------------|
@@ -7,7 +7,8 @@
 |Lulesh @ 40   |97.24        |96.40         |215.02    |95.29       |136.79      |128.67      |132.02      |
 |Lulesh @ 45   |159.65       |175.90        |359.83    |157.57      |217.00      |225.11      |209.52      |
 
-##Temparatue Max
+
+##Max Temparatue 
 
 |Program       |Ondemand     |Conservative  |  Powersave|Performance| Rounder @ 1 |Rounder @ 2 |Rounder @ 5 |
 |--------------|-------------|--------------|-----------|-----------| ------------|------------|------------|
@@ -17,7 +18,8 @@
 |Lulesh @ 45   |59, 57       |60,57         |44,42      |63,57      |57,55        |57,55       |58,56       |
 
 
-##Temparatue Min
+
+##Min Temparatue
 
 
 |Program       |Ondemand     |Conservative  |Powersave|Performance| Rounder @ 1|Rounder @ 2|Rounder @ 5|
@@ -28,7 +30,7 @@
 |Lulesh @ 45   |37, 36       |39,37         |38,37    | 43,40     | 42, 40     |40,39      |41,39      |
 
 
-##Temparatue Average
+##Average Temparature
 
 
 |Program      	|Ondemand        |Conservative  |Powersave     |Performance | Rounder @ 1  |Rounder @ 2 | Rounder @ 5| 
@@ -37,3 +39,4 @@
 |Lulesh @ 35   |55.32,53.96      |55.01, 53.62  |43.46,42.32   |55.37,53.79 | 49.57, 48.52 |50.04,48.94 |48.36,46.01 |
 |Lulesh @ 40   |57.01,55.38      |57.09, 55.80  |43.71,42.67   |56.63,55.08 | 50.79, 49.79 |51.21,50.01 |50.05,47.76 |
 |Lulesh @ 45   |55.51,52.91      |56.34, 53.82  |43.08, 40.57  |56.72,53.75 | 50.65, 48.16 |50.99,48.60 |50.68,48.57 |
+
