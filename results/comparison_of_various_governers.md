@@ -1,4 +1,5 @@
 #Comparison of Governors
+##Time
 
 |Program       |Ondemand     |Conservative  | Powersave| Performance| Rounder @ 1| Rounder @ 2| Rounder @ 5|
 |--------------|-------------|--------------|----------|------------|------------|------------|------------|
