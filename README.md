@@ -1,6 +1,6 @@
 
 
-##How to change the CPU frequency?
+##How To Change The CPU Frequency?
 
 ###Installation
 
