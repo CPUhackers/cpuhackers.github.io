@@ -28,6 +28,5 @@ int main()
 		printf("|%.1lf GHz|%.5lf Volt|%.5lf Volt|\n", f,xx,yy);
 	}
 
-
 }
 
