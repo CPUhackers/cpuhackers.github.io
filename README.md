@@ -154,7 +154,14 @@ The value obtained from 32:47 bits on multiplying with (1 / 2^^13) gives the vol
 |Lulesh @ 40   |57.01,55.38      |57.09, 55.80  |43.71,42.67   |56.63,55.08 | 50.79, 49.79 |51.21,50.01 |50.05,47.76 |
 |Lulesh @ 45   |55.51,52.91      |56.34, 53.82  |43.08, 40.57  |56.72,53.75 | 50.65, 48.16 |50.99,48.60 |50.68,48.57 |
 
+##Time for Various Programs 
 
+|Program             |Userspace Time| Ondemand Time|
+|--------------------|--------------|--------------|
+|Compress 10gb file|01:55 Min|01:20 Min|
+|Lulesh2.0|48.41 Sec|42.99 Sec|
+|Convert File To Pdf - LibreOffice|6.41 Sec |4.30 Sec|
+|Copy 1 GB|16.128 Sec|17.356 Sec|
 
 
  
