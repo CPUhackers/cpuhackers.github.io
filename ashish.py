@@ -9,8 +9,6 @@ if not os.path.exists("sam"):
 	os.system("mkdir sam")
 else:
 	print "path is already there"
-	#os.system("vi sam.c")
-	#os.system("mkdir sam")
 	os.system("pwd")	
 
 os.system("sudo cpufreq-set -c0 -g userspace")
