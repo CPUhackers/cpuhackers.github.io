@@ -24,6 +24,11 @@ def expected_set_frequencies():
 
 	return set_freq		
 
+def set_frequencies(freqs):
+	safe_temperature = utils.calculate_safe_temperature()
+	
+
 if __name__ == "__main__":
 	freqs = expected_set_frequencies()
+	set_frequencies(freqs)
 	
