@@ -33,7 +33,7 @@ def reduce_level(freq):
     	return freq
 
     no_of_avail_freqs = len(avail_freqs)	
-    for i in range(0,no_of_avail_freqs) :
+    for i in range(1,no_of_avail_freqs) :
     	if freq == avail_freqs[i] :
     		return avail_freqs[i-1]
 
@@ -52,7 +52,9 @@ def set_frequencies(freqs):
 			else :
 				curr_freq = utils.get_current_frequency(i)
 				previous_level_freq = reduce_level(curr_freq)
-		    	set_core_frequency(i,previous_level_freq)	
+				print i 
+				print  "th core freq: " + curr_freq+ " hey: " + previous_level_freq
+		    	utils.set_core_frequency(i,previous_level_freq)	
 		time.sleep(2)    	
 
 if __name__ == "__main__":
