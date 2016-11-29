@@ -57,6 +57,7 @@ def get_max_temparatures():
 def calculate_safe_temparature():
 	return max(get_max_temparatures()) - 4
 
+
 def set_core_frequency(core_no, frequency):
 	command = "sudo cpufreq-set -c%s -f %s" % (core_no, frequency)
 	os.system(command)
