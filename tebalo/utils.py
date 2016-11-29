@@ -48,13 +48,13 @@ def get_max_temparatures():
 		max_temparature_core_2 = max(max_temparature_core_2, get_core_temparature()[1])
 	
 	max_temparatures = []
-	max_temparatures.append(max_temparature_core_1)
-	max_temparatures.append(max_temparature_core_2)
+	max_temparatures.append(int(max_temparature_core_1))
+	max_temparatures.append(int(max_temparature_core_2))
 	
 	return max_temparatures
 
 def calculate_safe_temparature():
-	print get_max_temparatures() - 5
+	return max(get_max_temparatures()) - 4
 
 def set_core_frequency(core_no, frequency):
 	command = "sudo cpufreq-set -c%s -f %s" % (core_no, frequency)
@@ -63,6 +63,8 @@ def set_core_frequency(core_no, frequency):
 def get_current_frequency(core_no):
 	frequency_file = open("/sys/devices/system/cpu/cpu%s/cpufreq/scaling_cur_freq" % str(core_no), "r")
 	return frequency_file.read()
+
+print calculate_safe_temparature()
 
 
 
