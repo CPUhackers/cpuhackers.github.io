@@ -23,6 +23,7 @@ def max_load():
 def min_load() :
 	return 0
 
+
 # return list of temparature
 def get_core_temparature():
 	temparature_list = []
