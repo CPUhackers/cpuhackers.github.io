@@ -60,4 +60,10 @@ def set_core_frequency(core_no, frequency):
 	command = "sudo cpufreq-set -c%s -f %s" % (core_no, frequency)
 	os.system(command)
 
+def get_current_frequency(core_no):
+	frequency_file = open("/sys/devices/system/cpu/cpu%s/cpufreq/scaling_cur_freq" % str(core_no), "r")
+	return frequency_file.read()
+
+
+
 
