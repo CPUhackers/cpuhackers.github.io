@@ -66,6 +66,10 @@ def get_current_frequency(core_no):
 	frequency_file = open("/sys/devices/system/cpu/cpu%s/cpufreq/scaling_cur_freq" % str(core_no), "r")
 	return frequency_file.read().split("\n")[0]
 
+#Hardcoded since all systems dont support battery
+def get_current_battery():
+	#output = subprocess.Popen(["acpi"], stdout=subprocess.PIPE).communicate()[0]
+	return 50
 
 
 print calculate_safe_temperature()
