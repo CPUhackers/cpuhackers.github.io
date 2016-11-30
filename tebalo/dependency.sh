@@ -5,3 +5,4 @@ rm get-pip.py
 sudo -E pip install psutil 
 sudo apt-get install lm-sensors
 sudo apt-get install cpufrequtils
+sudo apt-get install acpi
