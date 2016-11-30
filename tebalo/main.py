@@ -6,7 +6,7 @@ import utils
 
 
 max_load = utils.max_load()
-min_load =utils.min_load()
+min_load = utils.min_load()
 avail_freqs = utils.get_core_freqeuncies()
 core_count = utils.get_core_count()
 
@@ -29,16 +29,18 @@ def current_temperature(core):
 	return utils.get_core_temparature()[core]
 
 def reduce_level(freq):
-    if freq == avail_freqs[0]:
+	
+    no_of_avail_freqs = len(avail_freqs)	
+
+    if freq == avail_freqs[no_of_avail_freqs-1]:
     	return freq
 
-    no_of_avail_freqs = len(avail_freqs)	
     for i in range(1,no_of_avail_freqs) :
     	if freq == avail_freqs[i] :
-    		return avail_freqs[i-1]
+    		return avail_freqs[i+1]
 
     #never comes here		
-    return freq[no_of_avail_freqs/2]			
+    return avail_freqs[no_of_avail_freqs/2]			
 
 def set_frequencies(freqs):
 	safe_temperature = utils.calculate_safe_temperature()
