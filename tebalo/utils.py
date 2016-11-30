@@ -18,10 +18,10 @@ def get_core_freqeuncies(core_number=0):
 	return lines
 
 def max_load():
-	return 100
+	return 100.5
 
 def min_load() :
-	return 0
+	return -0.5
 
 
 # return list of temparature
@@ -44,7 +44,7 @@ def get_max_temparatures():
 		command = "sudo cpufreq-set -c%s -g performance" % i
 		os.system(command)
 
-	for i in range(1, 1000):
+	for i in range(1, 100):
 		max_temparature_core_1 = max(max_temparature_core_1, get_core_temparature()[0])
 		max_temparature_core_2 = max(max_temparature_core_2, get_core_temparature()[1])
 	
@@ -55,8 +55,8 @@ def get_max_temparatures():
 	return max_temparatures
 
 def calculate_safe_temperature():
-	return max(get_max_temparatures()) - 2
-
+	#return max(get_max_temparatures()) - 2
+	return 57	
 
 def set_core_frequency(core_no, frequency):
 	command = "sudo cpufreq-set -c%s -f %s" % (core_no, frequency)
