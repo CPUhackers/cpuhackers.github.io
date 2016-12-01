@@ -1,0 +1,8 @@
+Package: cputool
+Version: 1.0-2
+Section: web
+Priority: optional
+Architecture: amd64
+Depends: 
+Maintainer: sameer <iit2013042@iiita.ac.in>
+Description: A jar tool used to record frequency,temperature and voltage of CPU  by regulating various cpu governors
