@@ -50,7 +50,7 @@ more cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
 
 ##Running Benchmarks
 
-We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php) for studying the change in temperature and execution time with change in frequency
+We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php)  and [Graph 500](http://www.graph500.org/) for studying the change in temperature and execution time with change in frequency
 
 ##Results
 
@@ -129,6 +129,15 @@ The value obtained from 32:47 bits on multiplying with (1 / 2^^13) gives the vol
 |Lulesh @ 35   |56.16        |56.80         |132.25    |57.02       |79.10       |82.87       |77.30       |
 |Lulesh @ 40   |97.24        |96.40         |215.02    |95.29       |136.79      |128.67      |132.02      |
 |Lulesh @ 45   |159.65       |175.90        |359.83    |157.57      |217.00      |225.11      |209.52      |
+
+
+|Program         |Ondemand  |Tebalo  |
+|--------------- |----------|---------|
+|Graph 0.3k 0.3k |18.52     |20.24    |
+|Graph 0.5k 0.5k |27.45     |28.42    |
+|Graph 0.7k 0.7k |48.52     |52.24    |
+|Graph 1k 1k     |84.33     |88.41    |
+
 
 
 ##Max Temparatue 
