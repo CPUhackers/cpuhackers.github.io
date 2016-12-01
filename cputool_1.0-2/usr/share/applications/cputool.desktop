@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=cputool
+Comment=a tool to study cpu governors.
+Exec=bash /usr/bin/cputool.sh
+Icon=/usr/share/cputool/cputool.png
+Terminal=false
+Type=Application
+Categories=GNOME;Application;Network
+StartupNotify=true
