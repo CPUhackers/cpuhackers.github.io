@@ -77,11 +77,11 @@ We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php)  and [Graph 500
 
 ![Time-Frequency](images/time-freq.png) 
 
-##Temparature reading in HPC Computer
+## Temparature reading in HPC Computer
 
 ![Silp Temparature Reading](images/temparature-silp.png)
 
-##How to read CPU voltage for 64 bit computer
+## How to read CPU voltage for 64 bit computer
 
 ```bash
  sudo apt-get install msr-tools
