@@ -120,7 +120,7 @@ The value obtained from 32:47 bits on multiplying with (1 / 2^^13) gives the vol
 |Copy 1 GB|16.128 Sec|17.356 Sec|
 
 ## Comparison of Governors
-The source code of Tebalo can be foun at https://github.com/CPUhackers/tebalo-dev
+The source code of Tebalo can be foun at https://github.com/CPUhackers/tebalo
 
 ## Time
 
