@@ -2,7 +2,7 @@ title: CPU Hackers
 description: Where we tinker with the inner core and share the results
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 
 gems:
   - jekyll-mentions
