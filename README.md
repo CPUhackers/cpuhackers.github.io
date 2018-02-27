@@ -1,14 +1,14 @@
 
 
-##How To Change The CPU Frequency?
+## How To Change The CPU Frequency?
 
-###Installation
+### Installation
 
 ```
 sudo apt-get install cpufrequtils
 ```
 
-###Running
+### Running
 
 Save the below in a set_freq.sh file
 ```sh
@@ -48,11 +48,11 @@ The available freqencies can be found by
 more cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
 ```
 
-##Running Benchmarks
+## Running Benchmarks
 
 We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php)  and [Graph 500](http://www.graph500.org/) for studying the change in temperature and execution time with change in frequency
 
-##Results
+## Results
 
 | Frequency  | Temp Core 1 ℃ | Temp Core ℃ | Execution Time  in Seconds |
 | ------------- |:-------------:| -----:| ----:|
@@ -92,7 +92,7 @@ We used [Lulesh benchmark](https://codesign.llnl.gov/lulesh.php)  and [Graph 500
 The value of register 408(x198) can be used to calculate the value of voltage. 
 The value obtained from 32:47 bits on multiplying with (1 / 2^^13) gives the voltage.
 
-##Comparison of Frequency Vs Voltage
+## Comparison of Frequency Vs Voltage
 
 
 |Max Frequency| Max Voltage |Min Voltage |
@@ -106,11 +106,11 @@ The value obtained from 32:47 bits on multiplying with (1 / 2^^13) gives the vol
 |2.4 GHz|0.90771 Volt|0.86890 Volt|
 
 
-###Graph
+### Graph
 
 ![Freq vs Voltage](images/freqvsvol.png)
 
-##Time for Various Programs 
+## Time for Various Programs 
 
 |Program             |Userspace Time| Ondemand Time|
 |--------------------|--------------|--------------|
@@ -119,9 +119,9 @@ The value obtained from 32:47 bits on multiplying with (1 / 2^^13) gives the vol
 |Convert File To Pdf - LibreOffice|6.41 Sec |4.30 Sec|
 |Copy 1 GB|16.128 Sec|17.356 Sec|
 
-##Comparison of Governors
+## Comparison of Governors
 
-##Time
+## Time
 
 |Program       |Ondemand     |Conservative  | Powersave| Performance| Rounder @ 1| Rounder @ 2| Rounder @ 5|
 |--------------|-------------|--------------|----------|------------|------------|------------|------------|
@@ -140,7 +140,7 @@ The value obtained from 32:47 bits on multiplying with (1 / 2^^13) gives the vol
 
 
 
-##Max Temparatue 
+## Max Temparatue 
 
 |Program       |Ondemand     |Conservative  |  Powersave|Performance| Rounder @ 1 |Rounder @ 2 |Rounder @ 5 |
 |--------------|-------------|--------------|-----------|-----------| ------------|------------|------------|
@@ -151,7 +151,7 @@ The value obtained from 32:47 bits on multiplying with (1 / 2^^13) gives the vol
 
 
 
-##Min Temparatue
+## Min Temparatue
 
 
 |Program       |Ondemand     |Conservative  |Powersave|Performance| Rounder @ 1|Rounder @ 2|Rounder @ 5|
@@ -162,7 +162,7 @@ The value obtained from 32:47 bits on multiplying with (1 / 2^^13) gives the vol
 |Lulesh @ 45   |37, 36       |39,37         |38,37    | 43,40     | 42, 40     |40,39      |41,39      |
 
 
-##Average Temparature
+## Average Temparature
 
 
 |Program      	|Ondemand        |Conservative  |Powersave     |Performance | Rounder @ 1  |Rounder @ 2 | Rounder @ 5| 
